@@ -1,0 +1,49 @@
+.signupForm > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0;
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.signupForm> .signup-form > h1 {
+  margin-top: 5px 0 20px 0;
+  font-size: 60px;
+}
+
+.signupForm > .signup-form > input,
+.signupForm > .signup-form > button {
+  width: 450px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 10px 10px;
+}
+
+.signupForm > .signup-form > input {
+  padding: 0 10px;
+}
+
+.signupForm > .signup-form > input[type='submit']:hover,
+.signupForm > .signup-form > button:hover {
+  background-color: rgb(36, 134, 185);
+}
+
+.signupForm > p {
+  margin: 20px 0 0 0;
+  font-weight: bold;
+}
+
+.signupForm > p > span {
+  text-decoration: underline;
+}
+.signupForm > p > span:hover {
+  cursor: pointer;
+}
+
+.signupForm > .signup-form > .errorText {
+  color: rgb(228, 15, 15);
+}

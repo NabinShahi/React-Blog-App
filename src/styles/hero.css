@@ -1,0 +1,23 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 0;
+  border-bottom: 1px solid rgb(117, 117, 117);
+}
+
+.hero-image {
+  height: 250px;
+  width: 250px;
+}
+
+.hero > p {
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: -5px;
+}
+
+.hero-text-second-line {
+  margin-top: -20px;
+}

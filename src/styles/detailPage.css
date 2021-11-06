@@ -1,0 +1,62 @@
+.detailPage {
+  margin-top: 20px;
+}
+
+.detailPage-title {
+  text-align: center;
+  font-size: 100px;
+}
+
+.detailPage-image {
+  display: block;
+  margin: 30px auto 0;
+  width: 75%;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.detailPage > .commentDate {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 12.5% 0 12.5%;
+  text-align: center;
+}
+
+.detailPage > .detailPage-commentDate > button {
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 12.5%;
+  border: none;
+} 
+
+.detailPage > .detailPage-commentDate > button:hover {
+  background-color: rgb(36, 134, 185);
+}
+
+.detailPage-date {
+  font-size: 25px;
+  margin-left: 70%
+}
+
+.detailPage-desc {
+  margin-left: 12.5%;
+  margin-top: 20px;
+}
+
+.detailPage > a {
+  width: 450px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 12.5%;
+}
+
+.detailPage > a:hover {
+  background-color: rgb(36, 134, 185);
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}

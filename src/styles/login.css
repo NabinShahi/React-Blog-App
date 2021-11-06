@@ -1,0 +1,50 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0;
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+h1 {
+  margin-top: 5px 0 20px 0;
+  font-size: 60px;
+}
+
+.login-form > input,
+.login-form > button {
+  width: 450px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 10px 10px;
+}
+
+.login-form > input {
+  padding: 0 10px;
+}
+
+.login-form > input[type='submit']:hover,
+.login-form > button:hover {
+  background-color: rgb(36, 134, 185);
+}
+
+.login-form > p {
+  margin: 20px 0 0 0;
+  font-weight: bold;
+}
+
+.login-form > span {
+  text-decoration: underline;
+}
+.login-form > span:hover {
+  cursor: pointer;
+}
+
+.login-form > .errorText {
+  text-align: left;
+  color: rgb(243, 17, 17);
+}

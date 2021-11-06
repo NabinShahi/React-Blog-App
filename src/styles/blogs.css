@@ -1,0 +1,74 @@
+.blog-container {
+  background-color: rgb(217, 222, 226);
+  padding: 20px 0;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogs {
+  height: 520px;
+  width: 730px;
+  margin: 75px auto 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.blogs > img {
+  width: 729px;
+  height: 292px;
+  border-radius: 5px;
+}
+
+.blogs > h5 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 24px;
+  padding: 0 15px;
+  margin: 15px 0;
+  color: rgb(36, 134, 185);
+  cursor: pointer;
+}
+
+.blogs > p {
+  margin-top: 0;
+  font-size: 13.2px;
+  line-height: 19px;
+  padding: 0 15px;
+  color: rgb(117, 117, 117);
+}
+
+.blogs > p > span {
+  color: rgb(36, 134, 185);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.blogs > p > span:hover {
+  text-decoration: underline;
+}
+
+.blogs-comments {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.blogs-comments > button {
+  height: 50px;
+  width: 150px;
+  background-color: rgb(36, 134, 185);
+  border: none;
+}
+
+.blogs-comments > .blogs-date {
+  margin-top: 30px 0 0 30px;
+  font-style: italic;
+  color: rgb(117, 117, 117);
+}
